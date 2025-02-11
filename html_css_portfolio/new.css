@@ -1,0 +1,83 @@
+.new {
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+  height: 300vh;
+}
+
+.new > .contents {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 두 개의 열 */
+  grid-template-rows: repeat(6, 1fr); /* 여섯 개의 행 */
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  position: absolute;
+  top: 570px;
+  right: 20px;
+}
+
+.new > .contents > h1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.new > .contents > article {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  border: 1px solid blue;
+  background-size: cover;
+  object-fit: cover;
+  height: 400px;
+  top: 450px;
+  left: 150px;
+}
+
+.new > .contents > .who {
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url("https://sttotv8prodmedia.blob.core.windows.net/mediacache/6/8/e/6/8/c/68e68ce0e73c85714922c799abfcfa6731086c28.jpg");
+}
+
+.new > .contents > .ange {
+  grid-area: 1 / 2 / 2 / 3; /* 두 번째 칸 */
+  background-image: url("https://www.tottenhamhotspur.com/media/phim30ga/km1_2273.jpg?mode=crop&quality=90&width=1600");
+}
+
+.new > .contents > .europa {
+  grid-area: 2 / 1 / 3 / 3; /* 첫 번째와 두 번째 열을 차지하는 영역 */
+  background-image: url("https://www.tottenhamhotspur.com/media/pv3gfoav/am027356.jpg?mode=crop&quality=90&width=1600");
+}
+
+.new > .contents > .tell {
+  grid-area: 3 / 1 / 4 / 2; /* 첫 번째 열 */
+  background-image: url("https://www.tottenhamhotspur.com/media/gjjfwh02/am019840.jpg?mode=crop&quality=90&width=1600");
+}
+
+.new > .contents > .photo {
+  grid-area: 3 / 2 / 4 / 3; /* 두 번째 열 */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrcmtbAI4RIVuIT2ug1zav9kKAmslBxSv7Hw&s");
+}
+
+.new > .contents > .porro {
+  grid-area: 4 / 1 / 5 / 3; /* 첫 번째와 두 번째 열을 차지하는 영역 */
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tottenhamhotspur.com%2Fkr%2F&psig=AOvVaw1enPHkEjbVjvQcqtb8pG_e&ust=1739361919815000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOChuZzKu4sDFQAAAAAdAAAAABAE");
+}
+
+.new > .contents > .snack {
+  grid-area: 5 / 1 / 6 / 2; /* 첫 번째 열 */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBDTZ2UkswRCVJzwIIhnvfCqnleU41TIs9Q&s");
+}
+
+.new > .contents > .uncut {
+  grid-area: 5 / 2 / 6 / 3; /* 두 번째 열 */
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tottenhamhotspur.com%2Fkr%2F&psig=AOvVaw3BNRnIfl2JYl_z4EtW5Kud&ust=1739361941735000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCV6KbKu4sDFQAAAAAdAAAAABAE");
+}
+
+.new > .contents > .danso {
+  grid-area: 6 / 1 / 7 / 3;
+  background-image: url("https://www.tottenhamhotspur.com/media/2vuptovm/am019520.jpg?mode=crop&quality=90&width=1600");
+}

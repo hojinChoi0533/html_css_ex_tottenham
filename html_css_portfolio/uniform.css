@@ -1,0 +1,43 @@
+.uniform {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.uniform > .contents {
+  width: 100%;
+  height: 30vh;
+
+  display: flex;
+  top: 70px;
+  position: absolute;
+}
+
+.uniform > .contents > article > .album > img {
+  width: 100%;
+  height: 100%;
+}
+
+.uniform > .contents > article > .info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 200px;
+  transform: translateY(30px);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.uniform > .contents > article > .info > h3 {
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.uniform > .contents > article > .info > p {
+  font-size: 16px;
+}
+.uniform > .contents > article > .info > h1 {
+  font-size: 32px;
+  margin-top: 30px;
+}

@@ -1,0 +1,46 @@
+.main {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+.main > .contents {
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
+  display: flex;
+  position: relative;
+  background-image: url("https://www.tottenhamhotspur.com/media/uyipgx1o/thfc-son_maddison_16x9.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.main > .contents > .info {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+.main > .contents > .info > h1 {
+  font-weight: 550;
+  color: white;
+  font-size: 54px;
+}
+.main > .contents > .info > .register {
+  display: inline-block;
+  padding: 24px;
+  background-color: #ffe100;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.main > .contents > .info > .shop {
+  display: inline-block;
+  border: 3px solid #ffe100;
+  padding: 22px;
+  font-size: 18px;
+  background-color: black;
+  color: #ffe100;
+  font-weight: bold;
+  margin-top: 50px;
+}
