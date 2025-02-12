@@ -10,20 +10,21 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 13px;
+  padding: 10px;
   background-color: #000d4c;
   color: white;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: bold;
   justify-content: center;
   align-items: center;
 }
 
 header > nav > ul {
-  transform: translateX(30px);
+  transform: translateX(100px);
   display: flex;
   list-style: none;
   gap: 40px;
+  cursor: pointer;
 }
 header > nav > ul > .Stadium {
   color: #ffe100;
