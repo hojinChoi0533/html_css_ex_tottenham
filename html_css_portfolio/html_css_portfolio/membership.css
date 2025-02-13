@@ -1,0 +1,82 @@
+.membership {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.membership > .contents {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 940px;
+
+  left: 10px;
+  display: flex;
+}
+.membership > .contents > .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.membership > .contents > .card > .album {
+  width: 50%;
+  height: 100%;
+}
+
+.membership > .contents > .card > .album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.membership > .contents > .card > .info {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+
+.membership > .contents > .card > .info > h2 {
+  font-size: 24px;
+  line-height: 3;
+}
+.membership > .contents > .card > .info > h6 {
+  font-size: 12px;
+}
+.membership > .contents > .card > .info > ul {
+  list-style-type: disc;
+
+  padding: 20px 40px;
+}
+.membership > .contents > .card > .info > ul > li {
+  font-size: 12px;
+  line-height: 2;
+}
+.membership > .contents > .card > .info > p {
+  font-size: 12px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.membership > .contents > .card > .info > button {
+  width: 120px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe100;
+  color: #000a3c;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.membership > .contents > .card > .info > button:hover {
+  background-color: #000a3c;
+  color: white;
+  transition: all 0.1s;
+}
